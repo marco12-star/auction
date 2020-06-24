@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AUCTION</title>
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="CSS/reset.css">
+	<link rel="stylesheet" href="CSS/media.css">
+</head>
+<body>
+
+	<!-- HEADER START -->
+
+<header class="header">
+  <div class='header__wrapper _wrapper'>
+    <div class="header__content">
+      <div class="header__container">
+      <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" class="header__logo"></picture>
+      <div class="header__main">
+      <div class="header__title">
+        WORLDWIDE OIL PORTAL
+      </div>
+      <form action="" method="get" class="header__search-forms">
+        <input type="search" name="search" placeholder="Search">
+      </form>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item miniSel"><a href="" class="header__link selector">Home</a></li>
+          <div class="hiddenMenu hiddenMenu_1">
+            <li class="header__item hide"><a href="" class="header__link">About us</a></li>
+          </div>
+          <li class="header__item miniSel"><a href="" class="header__link selector">Sale</a></li>
+          <div class="hiddenMenu hiddenMenu_2">
+            <li class="header__item hide"><a href="" class="header__link">Equipment for Sale</a></li>
+            <li class="header__item hide"><a href="" class="header__link">Business for Sale</a></li>
+          </div>
+          <li class="header__item"><a href="" class="header__link">Rent</a></li>
+          <li class="header__item"><a href="" class="header__link">Service</a></li>
+          <li class="header__item"><a href="" class="header__link">Auction</a></li>
+          <li class="header__item"><a href="" class="header__link">Stocks</a></li>
+          <li class="header__item"><a href="" class="header__link">Investments</a></li>
+          <li class="header__item miniSel"><a href="" class="header__link selector">Job portal</a></li>
+          <div class="hiddenMenu hiddenMenu_3">
+            <li class="header__item hide"><a href="" class="header__link">Job</a></li>
+            <li class="header__item hide"><a href="" class="header__link">Freelance</a></li>
+          </div>
+          <li class="header__item"><a href="" class="header__link">News</a></li>
+          <li class="header__item"><a href="" class="header__link">Contacts</a></li>
+        </ul>
+      </nav>
+      </div>
+      </div>
+      <div class="header__user user">
+        <a href="" class="user__button">
+          <picture><source srcset="img/icons/icons.svg#user" type="image/webp"><img src="img/icons/icons.svg#user"></picture>
+        </a>
+      </div>
+      <div class="header__burger burger">
+       <div class="burger__button">
+         <picture><source srcset="img/icons/icons.svg#burger" type="image/webp"><img src="img/icons/icons.svg#burger"></picture>
+        </div>
+        <ul class="burger__list">
+          <li class="burger__item"><a href="" class="burger__link">Home</a></li>
+          <li class="burger__item"><a href="" class="burger__link">About us</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Equipment for sale</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Business for sale</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Rent</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Service</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Tender</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Auction</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Stocks</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Investments</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Job</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Freelance</a></li>
+          <li class="burger__item"><a href="" class="burger__link">News</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Branches</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Contacts</a></li>
+          <li class="burger__item"><a href="" class="burger__link">Forum</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__info">
+      <div class="header__toggle-buttons">
+        <div class="header__language-picker">
+          <div class="header__current-language selector">
+            En
+          </div>
+          <div class="header__language-list">
+            <a href="" class="lang Ru">Ru</a>
+            <a href="" class="lang Ua">Ua</a>
+            <a href="" class="lang Ua">Ua</a>
+            <a href="" class="lang Ua">Ua</a>
+          </div>
+        </div>
+        <div class="header__account-buttons">
+          <a href="" class="header__acount-link">Login</a>
+          <span class="header__line">|</span>
+          <div class="header__acount-link selector">Register</div>
+          <div class="header__account-content">
+            <a href="" class="aact User">User</a>
+            <a href="" class="aact Comapny">Company</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__text">
+        <div class="header__info-word">
+          REGISTERED
+        </div>
+        <div class="header__statistics">
+          Companies: 20 from 9 countries<br/>Users: 48 from 13 countries<br/>Online: 1
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+	<!-- HEADER END -->
+
+	<!-- BUSINESS FOR SALE START -->
+
+	<section class="sale">
+		<div class="container flex">
+			<!-- SIDE BAR START -->
+			<aside class="sale__sidebar">
+				<h3 class="sale__sidebar_title">Category</h3>
+				<select class="sale__select" name="register" id="#">
+					<option value="#">Select a category</option>
+					<option value="#">Category</option>
+				</select>
+				<h3 class="sale__sidebar_title">Model</h3>
+				<input placeholder="text" type="text">
+				<h3 class="sale__sidebar_title">Current Bid</h3>
+				<input placeholder="text" type="text">
+				<h3 class="sale__sidebar_title">Price</h3>
+				<input placeholder="text" type="text">
+				<h3 class="sale__sidebar_title">Location</h3>
+				<input placeholder="text" type="text">
+				<button class="button">Search</button>
+			</aside>
+			<!-- SIDE BAR END -->
+			<!-- SALE SECTION START -->
+			<div class="sale__content">
+				<h2 class="sale__title">Auction</h2>
+				<div class="sale__item flex">
+					<div class="sale__item_intro">
+						<h4 class="sale__item_title">Moscow, Russia<img class="sale__item_img" src="IMG/flag_rossii_Abali.ru.svg" alt=""></h4>
+						<img class="sale_item_img2" src="IMG/Neftyanaya-burovaya-platforma-v-Norvegii 1.png" alt="">
+					</div>
+					<div class="sale__status">
+						<div class="sale__sit">
+							<span>#Lot</span><span>Category</span><span>Location</span><span>Current Price</span><span>Start Time</span><span>End Time</span>
+						</div>
+						<div class="sale__info">
+							<span>6140</span><span>Casing</span><span>Location</span><span>1000</span><span>2020-06-20 <br> 15:55:00</span><span class="last">2020-06-30 <br> 17:00:00</span>
+						</div>
+						<div class="sale__bid">
+							<p> TO MAKE A BID ADD DEPOSIT</p>
+							<p class="more"><a href="#">Click here</a></p>
+						</div>
+						<div class="sale__bt">
+							<button><i class="far fa-star star"></i>Watch list</button>
+						</div>
+					</div>
+					<div class="sale__item_btns">
+						<div id="countdown" class="countdown">
+						  <div class="countdown-number">
+						    <span class="days countdown-time"></span>
+						    <span class="countdown-text">Days</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="hours countdown-time"></span>
+						    <span class="countdown-text">Hours</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="minutes countdown-time"></span>
+						    <span class="countdown-text">Minutes</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="seconds countdown-time"></span>
+						    <span class="countdown-text">Seconds</span>
+						  </div>
+						</div>
+						<button class=" btn1 button">Buy now for 100000$</button>
+						<button class=" btn2 button">Bid now</button>
+					</div>
+				</div>
+				<div class="sale__item flex">
+					<div class="sale__item_intro">
+						<h4 class="sale__item_title">Moscow, Russia<img class="sale__item_img" src="IMG/flag_rossii_Abali.ru.svg" alt=""></h4>
+						<img class="sale_item_img2" src="IMG/Neftyanaya-burovaya-platforma-v-Norvegii 1.png" alt="">
+					</div>
+					<div class="sale__status">
+						<div class="sale__sit">
+							<span>#Lot</span><span>Category</span><span>Location</span><span>Current Price</span><span>Start Time</span><span>End Time</span>
+						</div>
+						<div class="sale__info">
+							<span>6140</span><span>Casing</span><span>Location</span><span>1000</span><span>2020-06-20 <br> 15:55:00</span><span class="last">2020-06-30 <br> 17:00:00</span>
+						</div>
+						<div class="sale__bid">
+							<p> TO MAKE A BID ADD DEPOSIT</p>
+							<p class="more"><a href="#">Click here</a></p>
+						</div>
+						<div class="sale__bt">
+							<button><i class="far fa-star star"></i>Watch list</button>
+						</div>
+					</div>
+					<div class="sale__item_btns">
+						<div id="countdown1" class="countdown">
+						  <div class="countdown-number">
+						    <span class="days countdown-time"></span>
+						    <span class="countdown-text">Days</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="hours countdown-time"></span>
+						    <span class="countdown-text">Hours</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="minutes countdown-time"></span>
+						    <span class="countdown-text">Minutes</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="seconds countdown-time"></span>
+						    <span class="countdown-text">Seconds</span>
+						  </div>
+						</div>
+						<button class=" btn1 button">Buy now for 100000$</button>
+						<button class=" btn2 button">Bid now</button>
+					</div>
+				</div>
+				<div class="sale__item flex">
+					<div class="sale__item_intro">
+						<h4 class="sale__item_title">Moscow, Russia<img class="sale__item_img" src="IMG/flag_rossii_Abali.ru.svg" alt=""></h4>
+						<img class="sale_item_img2" src="IMG/Neftyanaya-burovaya-platforma-v-Norvegii 1.png" alt="">
+					</div>
+					<div class="sale__status">
+						<div class="sale__sit">
+							<span>#Lot</span><span>Category</span><span>Location</span><span>Current Price</span><span>Start Time</span><span>End Time</span>
+						</div>
+						<div class="sale__info">
+							<span>6140</span><span>Casing</span><span>Location</span><span>1000</span><span>2020-06-20 <br> 15:55:00</span><span class="last">2020-06-30 <br> 17:00:00</span>
+						</div>
+						<div class="sale__bid">
+							<p> TO MAKE A BID ADD DEPOSIT</p>
+							<p class="more"><a href="#">Click here</a></p>
+						</div>
+						<div class="sale__bt">
+							<button><i class="far fa-star star"></i>Watch list</button>
+						</div>
+					</div>
+					<div class="sale__item_btns">
+						<div id="countdown2" class="countdown">
+						  <div class="countdown-number">
+						    <span class="days countdown-time"></span>
+						    <span class="countdown-text">Days</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="hours countdown-time"></span>
+						    <span class="countdown-text">Hours</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="minutes countdown-time"></span>
+						    <span class="countdown-text">Minutes</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="seconds countdown-time"></span>
+						    <span class="countdown-text">Seconds</span>
+						  </div>
+						</div>
+						<button class=" btn1 button">Buy now for 100000$</button>
+						<button class=" btn2 button">Bid now</button>
+					</div>
+				</div>
+				<div class="sale__item flex">
+					<div class="sale__item_intro">
+						<h4 class="sale__item_title">Moscow, Russia<img class="sale__item_img" src="IMG/flag_rossii_Abali.ru.svg" alt=""></h4>
+						<img class="sale_item_img2" src="IMG/Neftyanaya-burovaya-platforma-v-Norvegii 1.png" alt="">
+					</div>
+					<div class="sale__status">
+						<div class="sale__sit">
+							<span>#Lot</span><span>Category</span><span>Location</span><span>Current Price</span><span>Start Time</span><span>End Time</span>
+						</div>
+						<div class="sale__info">
+							<span>6140</span><span>Casing</span><span>Location</span><span>1000</span><span>2020-06-20 <br> 15:55:00</span><span class="last">2020-06-30 <br> 17:00:00</span>
+						</div>
+						<div class="sale__bid">
+							<p> TO MAKE A BID ADD DEPOSIT</p>
+							<p class="more"><a href="#">Click here</a></p>
+						</div>
+						<div class="sale__bt">
+							<button><i class="far fa-star star"></i>Watch list</button>
+						</div>
+					</div>
+					<div class="sale__item_btns">
+						<div id="countdown3" class="countdown">
+						  <div class="countdown-number">
+						    <span class="days countdown-time"></span>
+						    <span class="countdown-text">Days</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="hours countdown-time"></span>
+						    <span class="countdown-text">Hours</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="minutes countdown-time"></span>
+						    <span class="countdown-text">Minutes</span>
+						  </div>
+						  <div class="countdown-number">
+						    <span class="seconds countdown-time"></span>
+						    <span class="countdown-text">Seconds</span>
+						  </div>
+						</div>
+						<button class=" btn1 button">Buy now for 100000$</button>
+						<button class=" btn2 button">Bid now</button>
+					</div>
+				</div>
+				<div class="page__nav">
+					<nav>
+						<ul class="page__nav_items flex">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">30</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- SALE SECTION END -->
+		</div>
+	</section>
+
+	<!-- BUSINESS FOR SALE END -->
+
+	<!-- FOOTER START -->
+
+	<section class="footer">
+		<div class="container">
+			<div class="fr flex">
+				<nav>
+					<h2>Information</h2>
+					<ul class="footer__nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Equipment for sale</a></li>
+						<li><a href="#">Equipment for rent</a></li>
+						<li><a href="#">Business for sale</a></li>
+					</ul>
+				</nav>
+
+				<nav class="foot__nav">
+					<ul class="footer__nav">
+						<li><a href="#">Join auction auctions</a></li>
+						<li><a href="#">Calendarwatch list</a></li>
+					</ul>
+					<ul class="footer__nav">
+						<li><a href="#">Oli well Drilling services</a></li>
+						<li><a href="#">Equipment repair services</a></li>
+					</ul>
+				</nav>
+				<nav class="foot__nav">
+					<ul class="footer__nav">
+						<li><a href="#">Join auction auctions</a></li>
+						<li><a href="#">Calendarwatch list</a></li>
+					</ul>
+					<ul class="footer__nav">
+						<li><a href="#">Oli well Drilling services</a></li>
+						<li><a href="#">Equipment repair services</a></li>
+					</ul>
+				</nav>
+
+				<div class="contact">
+					<h2>Contact</h2>
+					<p>2323, Dubai, Jebel Ali <br> +971506952288 <br> info@aligmail.com</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer2">
+		<div class="container">
+			<h2>WORLDWIDE OIL PORTAL  2020</h2>
+		</div>
+	</footer>
+
+	<!-- FOOTER END -->
+	<script src="js/script.min.js"></script>
+
+	<script>
+	  function getTimeRemaining(endtime) {
+	  var t = Date.parse(endtime) - Date.parse(new Date());
+	  var seconds = Math.floor((t / 1000) % 60);
+	  var minutes = Math.floor((t / 1000 / 60) % 60);
+	  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+	  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+	  return {
+	    'total': t,
+	    'days': days,
+	    'hours': hours,
+	    'minutes': minutes,
+	    'seconds': seconds
+	  };
+	}
+	 
+	function initializeClock(id, endtime) {
+	  var clock = document.getElementById(id);
+	  var daysSpan = clock.querySelector('.days');
+	  var hoursSpan = clock.querySelector('.hours');
+	  var minutesSpan = clock.querySelector('.minutes');
+	  var secondsSpan = clock.querySelector('.seconds');
+	 
+	  function updateClock() {
+	    var t = getTimeRemaining(endtime);
+	 
+	    daysSpan.innerHTML = t.days;
+	    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+	    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+	    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+	 
+	    if (t.total <= 0) {
+	      clearInterval(timeinterval);
+	    }
+	  }
+	 
+	  updateClock();
+	  var timeinterval = setInterval(updateClock, 1000);
+	}
+	 
+	var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+	initializeClock('countdown', deadline);
+	</script>
+	<script>
+	  function getTimeRemaining(endtime) {
+	  var t = Date.parse(endtime) - Date.parse(new Date());
+	  var seconds = Math.floor((t / 1000) % 60);
+	  var minutes = Math.floor((t / 1000 / 60) % 60);
+	  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+	  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+	  return {
+	    'total': t,
+	    'days': days,
+	    'hours': hours,
+	    'minutes': minutes,
+	    'seconds': seconds
+	  };
+	}
+	 
+	function initializeClock(id, endtime) {
+	  var clock = document.getElementById(id);
+	  var daysSpan = clock.querySelector('.days');
+	  var hoursSpan = clock.querySelector('.hours');
+	  var minutesSpan = clock.querySelector('.minutes');
+	  var secondsSpan = clock.querySelector('.seconds');
+	 
+	  function updateClock() {
+	    var t = getTimeRemaining(endtime);
+	 
+	    daysSpan.innerHTML = t.days;
+	    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+	    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+	    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+	 
+	    if (t.total <= 0) {
+	      clearInterval(timeinterval);
+	    }
+	  }
+	 
+	  updateClock();
+	  var timeinterval = setInterval(updateClock, 1000);
+	}
+	 
+	var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+	initializeClock('countdown1', deadline);
+	</script>
+	<script>
+	  function getTimeRemaining(endtime) {
+	  var t = Date.parse(endtime) - Date.parse(new Date());
+	  var seconds = Math.floor((t / 1000) % 60);
+	  var minutes = Math.floor((t / 1000 / 60) % 60);
+	  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+	  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+	  return {
+	    'total': t,
+	    'days': days,
+	    'hours': hours,
+	    'minutes': minutes,
+	    'seconds': seconds
+	  };
+	}
+	 
+	function initializeClock(id, endtime) {
+	  var clock = document.getElementById(id);
+	  var daysSpan = clock.querySelector('.days');
+	  var hoursSpan = clock.querySelector('.hours');
+	  var minutesSpan = clock.querySelector('.minutes');
+	  var secondsSpan = clock.querySelector('.seconds');
+	 
+	  function updateClock() {
+	    var t = getTimeRemaining(endtime);
+	 
+	    daysSpan.innerHTML = t.days;
+	    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+	    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+	    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+	 
+	    if (t.total <= 0) {
+	      clearInterval(timeinterval);
+	    }
+	  }
+	 
+	  updateClock();
+	  var timeinterval = setInterval(updateClock, 1000);
+	}
+	 
+	var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+	initializeClock('countdown2', deadline);
+	</script>
+	<script>
+	  function getTimeRemaining(endtime) {
+	  var t = Date.parse(endtime) - Date.parse(new Date());
+	  var seconds = Math.floor((t / 1000) % 60);
+	  var minutes = Math.floor((t / 1000 / 60) % 60);
+	  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+	  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+	  return {
+	    'total': t,
+	    'days': days,
+	    'hours': hours,
+	    'minutes': minutes,
+	    'seconds': seconds
+	  };
+	}
+	 
+	function initializeClock(id, endtime) {
+	  var clock = document.getElementById(id);
+	  var daysSpan = clock.querySelector('.days');
+	  var hoursSpan = clock.querySelector('.hours');
+	  var minutesSpan = clock.querySelector('.minutes');
+	  var secondsSpan = clock.querySelector('.seconds');
+	 
+	  function updateClock() {
+	    var t = getTimeRemaining(endtime);
+	 
+	    daysSpan.innerHTML = t.days;
+	    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+	    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+	    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+	 
+	    if (t.total <= 0) {
+	      clearInterval(timeinterval);
+	    }
+	  }
+	 
+	  updateClock();
+	  var timeinterval = setInterval(updateClock, 1000);
+	}
+	 
+	var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
+	initializeClock('countdown3', deadline);
+	</script>
+
+	<script src="https://kit.fontawesome.com/164382eaaf.js" crossorigin="anonymous"></script>
+</body>
+</html>
